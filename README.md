@@ -1,4 +1,4 @@
-# Network Tools for AKS
+# Network Tools
 
 Ubuntu 20.04 with the following packages installed for network debugging
 - iputils-ping
