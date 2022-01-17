@@ -32,9 +32,3 @@ jobs:
         tags: |
          peanutsguy/networktools:latest
          ghcr.io/peanutsguy/networktools:latest
-    - name: Docker Hub Description
-      uses: peter-evans/dockerhub-description@v2
-      with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_TOKEN }}
-        repository: peanutsguy/networktools
